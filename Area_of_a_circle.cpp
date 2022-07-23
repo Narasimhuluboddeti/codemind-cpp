@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
+
 int main(){
-    int a;
-    cin>>a;
-    printf("%0.2f",(a*a*3.14));
+    int r;
+    cin>>r;
+    printf("%0.2f",3.14*r*r);
     return 0;
 }
